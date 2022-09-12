@@ -45,7 +45,7 @@ This is an example of someone utilizing the webpage to search for triangle shape
 <br /> ![image](https://user-images.githubusercontent.com/108038989/189572716-9ab03838-d1fd-459c-9787-e8585f2f7f4f.png)
 
 ## Summary 
-Using JavaScript and HTML, the code in the [index.html](https://github.com/lkachury/UFOs/blob/main/index.html) file was modified to add filters for the city, state, country, and shape in addition to the date filter already created in this module. Using JavaScript, the handleClick() function in the [app.js](https://github.com/lkachury/UFOs/blob/main/static/js/app.js) file was replaced with a new function that saves the element, value, and id of the filter that was changed. Then, a new function was created to loop through the dataset and to keep only the results that match the search criteria. lastly, the webpage was updated with the search criteria once "Enter" was pressed.
+Using JavaScript and HTML, the code in the [index.html](https://github.com/lkachury/UFOs/blob/main/index.html) file was modified to add filters for the city, state, country, and shape in addition to the date filter already created in this module. Using JavaScript, the handleClick() function in the [app.js](https://github.com/lkachury/UFOs/blob/main/static/js/app.js) file was replaced with a new function that saves the element, value, and id of the filter that was changed. Then, a new function was created to loop through the dataset and to keep only the results that match the search criteria. Lastly, the webpage was updated with the search criteria once "Enter" was pressed.
 
 ### Drawbacks and Recommendations 
 1. A drawback to the design of the webpage is the lack of a button or function to clear the data after each search. Currently, the only way to clear the results and start a new search is to manually delete the information entered in the filters. A recommendation for further development would be to develop and display a button that will clear the results and reset the filters to facilitate a new search. 
@@ -53,7 +53,7 @@ Using JavaScript and HTML, the code in the [index.html](https://github.com/lkach
 2. Another drawback of the webpage is that the design is case sensitive. When the country field is filtered with "us", the table is populated with dozens of results: 
 <br /> ![image](https://user-images.githubusercontent.com/108038989/189575962-88efc830-f2b0-46c6-b02c-5c7891203305.png)
 
-However, when the country field is filtered with "US" or "Us", the table does not return any results:
-<br /> ![image](https://user-images.githubusercontent.com/108038989/189576272-ac777d21-05a0-471b-b803-c4340209a649.png)
-<br /> ![image](https://user-images.githubusercontent.com/108038989/189576223-aa3febc5-8fd3-483b-85f5-202ba290e69a.png)
-Another recommendation for further development would be to add code that will bypass case-sensitivity and/or convert the user input values to lower case letter format. 
+>However, when the country field is filtered with "US" or "Us", the table does not return any results:
+><br /> ![image](https://user-images.githubusercontent.com/108038989/189576272-ac777d21-05a0-471b-b803-c4340209a649.png)
+><br /> ![image](https://user-images.githubusercontent.com/108038989/189576223-aa3febc5-8fd3-483b-85f5-202ba290e69a.png)
+>Another recommendation for further development would be to add code that will bypass case-sensitivity and/or convert the user input values to lower case letter format. 
