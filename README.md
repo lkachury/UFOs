@@ -39,7 +39,7 @@ This was done with the following code:
 
 #### 5. The webpage filters the table correctly based on user input
 
-The Filter Search input box in the webpage was designed so that end-users could narrow the search of UFO sightings from the raw [data.js}(https://github.com/lkachury/UFOs/blob/main/static/js/data.js) file and the results would be conveniently displayed in the dynamic table. The data can be filtered by date, city, state, country, and/or shape and the placeholder in these input fields indicate to the end-user the format in which the search terms should be entered. 
+The Filter Search input box in the webpage was designed so that end-users could narrow the search of UFO sightings from the raw [data.js](https://github.com/lkachury/UFOs/blob/main/static/js/data.js) file and the results would be conveniently displayed in the dynamic table. The data can be filtered by date, city, state, country, and/or shape and the placeholder in these input fields indicate to the end-user the format in which the search terms should be entered. 
 
 This is an example of someone utilizing the webpage to search for triangle shaped UFO sightings in California, US:
 <br /> ![image](https://user-images.githubusercontent.com/108038989/189572716-9ab03838-d1fd-459c-9787-e8585f2f7f4f.png)
