@@ -1,7 +1,7 @@
 # UFOs
 
 ## Overview
-The UFO sightings webpage and dynamic table are working as intended with the date filter, but filters for the city, state, country, and shape will also be added. The purpose of this analysis is to use Javascript and HTML to provide a more in-depth analysis of UFO sightings and allowing users to filter for multiple criteria at the same time and display the results in the webpage table. 
+The UFO sightings webpage and dynamic table are working as intended with the date filter, but filters for the city, state, country, and shape will also be added. The purpose of this analysis is to use Javascript and HTML to provide a more in-depth analysis of UFO sightings and allow users to filter for multiple criteria at the same time and display the results in the webpage table. 
 
 ## Resources
 ### Data Source 
