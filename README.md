@@ -47,6 +47,9 @@ This is an example of someone utilizing the webpage to search for triangle shape
 ## Summary 
 Using JavaScript and HTML, the code in the [index.html](https://github.com/lkachury/UFOs/blob/main/index.html) file was modified to add filters for the city, state, country, and shape in addition to the date filter already created in this module. Using JavaScript, the handleClick() function in the [app.js](https://github.com/lkachury/UFOs/blob/main/static/js/app.js) file was replaced with a new function that saves the element, value, and id of the filter that was changed. Then, a new function was created to loop through the dataset and to keep only the results that match the search criteria. Lastly, the webpage was updated with the search criteria once "Enter" was pressed.
 
+The web app was deployed to my GitHub pages: https://lkachury.github.io/UFOs/
+<br /> ![image](https://user-images.githubusercontent.com/108038989/189582877-3db56ca2-9e48-4b91-9b63-e01be69fe8a9.png)
+
 ### Drawbacks and Recommendations 
 1. A drawback to the design of the webpage is the lack of a button or function to clear the data after each search. Currently, the only way to clear the results and start a new search is to manually delete the information entered in the filters. A recommendation for further development would be to develop and display a button that will clear the results and reset the filters to facilitate a new search. 
 
