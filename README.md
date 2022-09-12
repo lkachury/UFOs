@@ -42,7 +42,7 @@ This was done with the following code:
 The Filter Search input box in the webpage was designed so that end-users could narrow the search of UFO sightings from the raw [data.js](https://github.com/lkachury/UFOs/blob/main/static/js/data.js) file and the results would be conveniently displayed in the dynamic table. The data can be filtered by date, city, state, country, and/or shape and the placeholder in these input fields indicate to the end-user the format in which the search terms should be entered. 
 
 This is an example of someone utilizing the webpage to search for triangle shaped UFO sightings in California, US:
-<br /> ![image](https://user-images.githubusercontent.com/108038989/189572716-9ab03838-d1fd-459c-9787-e8585f2f7f4f.png)
+<br /> ![image](https://user-images.githubusercontent.com/108038989/189578865-8dbc65c2-e6c8-47ff-9032-b400a06e35c5.png)
 
 ## Summary 
 Using JavaScript and HTML, the code in the [index.html](https://github.com/lkachury/UFOs/blob/main/index.html) file was modified to add filters for the city, state, country, and shape in addition to the date filter already created in this module. Using JavaScript, the handleClick() function in the [app.js](https://github.com/lkachury/UFOs/blob/main/static/js/app.js) file was replaced with a new function that saves the element, value, and id of the filter that was changed. Then, a new function was created to loop through the dataset and to keep only the results that match the search criteria. Lastly, the webpage was updated with the search criteria once "Enter" was pressed.
