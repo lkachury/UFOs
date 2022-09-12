@@ -51,9 +51,4 @@ Using JavaScript and HTML, the code in the [index.html](https://github.com/lkach
 1. A drawback to the design of the webpage is the lack of a button or function to clear the data after each search. Currently, the only way to clear the results and start a new search is to manually delete the information entered in the filters. A recommendation for further development would be to develop and display a button that will clear the results and reset the filters to facilitate a new search. 
 
 2. Another drawback of the webpage is that the design is case sensitive. When the country field is filtered with "us", the table is populated with dozens of results: 
-<br /> ![image](https://user-images.githubusercontent.com/108038989/189575962-88efc830-f2b0-46c6-b02c-5c7891203305.png)
-
->However, when the country field is filtered with "US" or "Us", the table does not return any results:
-><br /> ![image](https://user-images.githubusercontent.com/108038989/189576272-ac777d21-05a0-471b-b803-c4340209a649.png)
-><br /> ![image](https://user-images.githubusercontent.com/108038989/189576223-aa3febc5-8fd3-483b-85f5-202ba290e69a.png)
-    Another recommendation for further development would be to add code that will bypass case-sensitivity and/or convert the user input values to lower case letter format. 
+<br /> ![image](https://user-images.githubusercontent.com/108038989/189575962-88efc830-f2b0-46c6-b02c-5c7891203305.png) <br /> However, when the country field is filtered with "US" or "Us", the table does not return any results: ><br /> ![image](https://user-images.githubusercontent.com/108038989/189576272-ac777d21-05a0-471b-b803-c4340209a649.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/189576223-aa3febc5-8fd3-483b-85f5-202ba290e69a.png) <br /> Another recommendation for further development would be to add code that will bypass case-sensitivity and/or convert the user input values to lower case letter format. 
