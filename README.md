@@ -56,4 +56,4 @@ Using JavaScript and HTML, the code in the [index.html](https://github.com/lkach
 >However, when the country field is filtered with "US" or "Us", the table does not return any results:
 ><br /> ![image](https://user-images.githubusercontent.com/108038989/189576272-ac777d21-05a0-471b-b803-c4340209a649.png)
 ><br /> ![image](https://user-images.githubusercontent.com/108038989/189576223-aa3febc5-8fd3-483b-85f5-202ba290e69a.png)
->Another recommendation for further development would be to add code that will bypass case-sensitivity and/or convert the user input values to lower case letter format. 
+    Another recommendation for further development would be to add code that will bypass case-sensitivity and/or convert the user input values to lower case letter format. 
